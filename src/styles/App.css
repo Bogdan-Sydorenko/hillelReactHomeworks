@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4b0082; /* Темно-фіолетовий */
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: white;
+}
+
+button {
+    background-color: white;
+    color: #4b0082;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #4b0082;
+    color: white;
+    border-color: #4b0082;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.emoji-item {
+    margin: 15px 0;
+    font-size: 24px;
+}
+
+.winning-emoji {
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+}
