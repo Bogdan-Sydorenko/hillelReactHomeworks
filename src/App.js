@@ -29,10 +29,10 @@ const App = () => {
 
     return (
         <div className="container">
-            <h1>Vote for Your Favorite Emoji!</h1>
+            <h1>Голосуй за улюблений смайлик!!</h1>
             <EmojiList votes={votes} onVote={handleVote} />
             <Result votes={votes} />
-            <button onClick={clearVotes}>Clear Results</button>
+            <button onClick={clearVotes}>Очистити результати</button>
         </div>
     );
 };
