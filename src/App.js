@@ -3,7 +3,6 @@ import EmojiList from "./components/EmojiList";
 import Result from "./components/Result";
 import "./styles/App.css";
 
-
 const App = () => {
     const [votes, setVotes] = useState(() => {
         const savedVotes = localStorage.getItem("emojiVotes");
@@ -30,17 +29,13 @@ const App = () => {
 
     return (
         <div className="container">
-            <h1>Голосуй за найкращий смайлик!</h1>
+            <h1>Vote for Your Favorite Emoji!</h1>
             <EmojiList votes={votes} onVote={handleVote} />
             <Result votes={votes} />
-            <button
-                onClick={clearVotes}
-                style={{ marginTop: "20px", padding: "10px 20px" }}
-            >
-                Очистити результати
-            </button>
+            <button onClick={clearVotes}>Clear Results</button>
         </div>
     );
 };
 
 export default App;
+

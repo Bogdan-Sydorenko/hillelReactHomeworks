@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1565cda8-50ed-43e0-8fbb-0950a509b3db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/EmojiList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Result.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="homework26.1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -70,7 +73,7 @@
       <updated>1733573755551</updated>
       <workItem from="1733573756660" duration="1554000" />
       <workItem from="1733575782910" duration="2242000" />
-      <workItem from="1733591681647" duration="4056000" />
+      <workItem from="1733591681647" duration="4581000" />
     </task>
     <servers />
   </component>
